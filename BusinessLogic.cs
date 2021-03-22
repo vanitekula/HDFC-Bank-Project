@@ -76,7 +76,7 @@ namespace WebApplication39
                 return false;
             }
         }
-        public Account GetAccountByAcno(Account account)
+        public Account GetAccountByAcno(Account account)//Transfer fund
         {
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
